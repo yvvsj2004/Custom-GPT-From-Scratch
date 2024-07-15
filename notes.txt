@@ -1,0 +1,10 @@
+First write the encoding and decoding functions for the text
+
+
+Context vectors are like enriched embedding vectors.
+
+In multi-head attention, 
+how are we guaranteeing that each head represents different contexts(i.e different features)??
+
+Afterinitializingalayer(new_layer = torch.nn.Linear(...)), 
+we can access its weights through the .weight attribute, new_layer.weight
